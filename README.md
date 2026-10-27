@@ -9,7 +9,7 @@ recommend, never delete.
 - **list_resources.py** — lists your live EC2 instances and S3 buckets.
 - **find_idle_ec2.py** — flags running EC2 instances with low average CPU
   (likely idle) using CloudWatch metrics.
-- **lab5_orphaned_ebs.py** — finds unattached ("available") EBS volumes and
+- **find_orphaned_ebs.py** — finds unattached ("available") EBS volumes and
   estimates the monthly storage being wasted.
 - **finops_examples.py** — a toolkit of read-only audit snippets:
   stale IAM access keys, idle EC2, orphaned EBS, S3 buckets, billing-CSV
